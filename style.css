@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(/fondo.jpg);
+    background-position: center;
+    height: 100%;   
+}
+
+header{
+    background-color: aquamarine;
+}
+
+nav{
+    background-color: cadetblue;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.principal{
+    display: block;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    position: relative;
+    width: 70%;
+    height: 400px;
+    left: 20px;
+}
+
+aside{
+    display: block;
+    background-color: aqua;
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    right: 20px;
+    top:100px;
+}
+
+.item1 img{
+    flex: 1 1 300px;
+}
+
+.item2 img{
+    flex: 1 1 100px;
+}
+
+footer{
+    background-color: rgb(64, 121, 172);
+}
